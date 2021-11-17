@@ -33,8 +33,8 @@ void setup() {
   lcd.backlight();
   
   // Escribimos el Mensaje en el LCD.
-  lcd.print("HOLA ALUMNES");
-  Serial.println("HOLA ALUMNES");
+  lcd.print("HOLA ALUMNoS");
+  Serial.println("HOLA ALUMNoS");
   delay(2000);
 }
 
