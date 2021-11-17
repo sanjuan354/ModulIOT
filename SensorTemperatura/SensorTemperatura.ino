@@ -45,7 +45,7 @@ void loop() {
   celsius = milivolts / 10; 
 
   lcd.setCursor(0, 0);
-  lcd.print("CFGS:SPZ");
+  lcd.print("CFGS:>Espe");
   lcd.print(" t:");
   // Escribimos el número de segundos trascurridos
   lcd.print(millis()/1000);
